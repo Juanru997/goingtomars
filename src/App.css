@@ -1,20 +1,54 @@
+img {
+  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+}
+
 .App {
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: black;
+  color: white;
 }
-
+.heading{
+  background: yellow;
+  color: black;
+  font-size: 50px;
+}
 .product {
-  background: white;
+  background: black;
   display: flex;
   flex-direction: row;
-  border: 2px solid black;
-  border-radius: 3px;
-  width: 100px;
-  height: 100px;
-  margin: 25px;
+  border: 10px solid yellow;
+  border-radius: 0px;
+  width: 300px;
+  /* height: 300px; */
+  margin: 10px;
+  color: white;
 }
 
+.nameOfProduct{
+  background: red;
+  font-size: 40px;
+  border: 2px solid yellow;
+}
 
+.description{
+  background: blue;
+  border: 2px solid yellow;
+}
+
+.price{
+  background:yellow;
+  color: red;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.promoSentence{
+  color: red;
+
+}
