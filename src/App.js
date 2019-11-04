@@ -14,20 +14,21 @@ let shoppingCartItems = [
     image: 'https://www.getreadyhk.com/images/stories/blog/mrmrsfoodhk/runyuan/runyuan_04.JPG',
     description: 'Followed by coconut water, coconut chicken is also recognized as one of the greatest food in 2020s, you donnot want to miss it during your Mars trip',
     price: '258 Marscoin',
-    promoSentence: 'Your life is incomplete without Coconut Chicken'
+    promoSentence: 'Bring intangible heritage to Mars'
   },
   {
     item: 'War and Peace',
     image: 'https://images4.penguinrandomhouse.com/cover/9781400079988',
     description: 'War and Peace broadly focuses on Napoleon’s invasion of Russia in 1812 and follows three of the most well-known characters in literature',
     price: '999 Marscoin',
-    promoSentence: 'Reading helps you to sleep well'
+    promoSentence: 'Reading helps you to sleep well during the long trip'
   },
   
   {
     item: 'NYU Shanghai Sticker',
     image: 'https://media1.giphy.com/media/j0GSxl5cuQKp3Rtmt1/source.gif',
     description: 'This sticker gives you comfort and reminds you of great experience of NYU Shanghai although the school does not exist anymore',
+    promoSentence: 'Long Live NYUSH',
     price: '1000 Marscoin'
   },
 ]
@@ -38,7 +39,13 @@ function App() {
       <h1 className="heading">Life Essentials</h1>
      {/* <SearchForm /> */}
      <ShoppingCart />
+     <div className="note">
      <p>Inspired by Yeshu Coconut</p>
+     <p>
+       Marscoin: Marscoin is a cryptocurrency. It is a decentralized digital currency that are used UNIVERSALLY.
+     </p>
+     </div>
+     
     </div>
   );
 }
